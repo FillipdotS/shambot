@@ -22,7 +22,7 @@ for (const file of commandFiles) {
 }
 
 client.once('ready', () => {
-	console.log('-- ShamBot ready --');
+	console.log('------- ShamBot ready -------');
 });
 
 client.on('interactionCreate', async interaction => {
