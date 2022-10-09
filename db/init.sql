@@ -1,4 +1,4 @@
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
   id VARCHAR (255) PRIMARY KEY,
   funny_points INT DEFAULT 0 NOT NULL
 );
