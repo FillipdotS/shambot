@@ -8,6 +8,7 @@ services:
       - SHAMBOT_CLIENTID=${SHAMBOT_CLIENTID}
       - SHAMBOT_PG_USER=${SHAMBOT_PG_USER}
       - SHAMBOT_PG_PASS=${SHAMBOT_PG_PASS}
+      - SHAMBOT_PG_HOST=${SHAMBOT_PG_HOST}
     depends_on:
       - "db"
   db:

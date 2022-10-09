@@ -5,6 +5,8 @@ const fs = require('node:fs');
 
 const registerCommands = async (token, clientId) => {
 	try {
+		console.log('Re-registering bot commands...');
+
 		const rest = new REST({ version: '10' }).setToken(token);
 
 		// Delete all existing commands
